@@ -1,4 +1,4 @@
-export default function ingredientReducer(state, action) {
+export default function ingredientReducer(state=[], action) {
   switch (action.type) {
     case ADD_INGREDIENT:
       return()
